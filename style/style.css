@@ -1,0 +1,151 @@
+html, body {
+	background:white; font-family: 'Lato', helvetica, arial, sans-serif; font-size: 16px; color: #222;
+}
+
+.clear {clear: both;}
+
+p {
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+	
+}
+
+#cv {
+	width: 90%;
+	max-width: 800px;
+	
+	margin: 30px auto;
+}
+
+.mainDetails {
+	padding: 25px 35px;
+	border-bottom: 2px solid green;
+	
+}
+
+#name h1 {
+	font-size: 2.5em;
+	font-weight: 700;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	margin-bottom: -6px;
+}
+
+#name h2 {
+	font-size: 2em;
+	margin-left: 2px;
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+}
+
+#mainArea {
+	padding: 0 40px;
+}
+
+#headshot {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+}
+
+#headshot img {
+	width: 100%;
+	height: auto;
+	border-radius: 50px;
+}
+
+#name {
+	float: left;
+}
+
+#contactDetails {
+	float: right;
+}
+
+
+#contactDetails ul li {
+	margin-bottom: 3px;
+	color: #444;
+}
+
+#contactDetails ul li a {
+	color: #444; 
+	text-decoration: none;
+}
+
+#contactDetails ul li a:hover { 
+	color: #cf8a05;
+}
+
+
+
+section {
+	border-top: 1px solid #dedede;
+	padding: 20px 0 0;
+}
+
+
+
+.sectionTitle {
+	float: left;
+	width: 25%;
+}
+
+.sectionContent {
+	float: right;
+	width: 72.5%;
+}
+
+.sectionContent h2{
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
+.sectionTitle h1 {
+	font-family: 'Rokkitt', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+	color: rgb(38, 71, 0);
+}
+
+
+
+
+.sectionContent th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: center;
+	background-color: #4CAF50;
+	color: white;
+}
+
+.sectionContent td{
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: center;
+}
+
+
+.interest {
+	list-style-type:circle;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.skill {
+	list-style-type:circle;
+	column-count:3;
+	margin-bottom: 20px;
+	font-size: 1em;
+	color: #444;
+}
+
+.detailLinks{
+	list-style-type:none;
+	font-size: 1em;
+}
+
+.sectionContent label{
+	font: bold;
+}
