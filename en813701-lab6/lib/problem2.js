@@ -4,16 +4,20 @@ let arr = [];
 
 function readInput(){ 
     let i = prompt("Enter an integer (a nagative integer to quit): ");
-    number = parseInt(i);
+    number = Number(i);
+    if (Number.isInteger(number)) {
         if (number > 0){
             arr.push(number)
             return number,arr;
         }else{
             return number,arr;
         }
+    }else{
+
+        return number,arr;
+    }
     
 }
-
 function displayStats(number){
     let sum = arr.reduce(function(a, b){
         return a + b;
